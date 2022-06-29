@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 60%;
+  height: 100vh;
+}
+
+.instagram-phone, .login-options {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.instagram-phone {
+  justify-content: center;
+}
+
+.login-options {
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid rgb(219, 219, 219);
+  width: 100%;
+  padding: 1.3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card:nth-of-type(2) {
+  margin-top: 10px;
+}
+
+.instagram-logo {
+    height: 3rem;
+}
+
+.login-form {
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.input-field {
+  margin-bottom: 10px;
+  border: 1px solid rgb(219, 219, 219);
+  padding: 10px;
+  width: 60%; 
+}
+
+.instagram-login {
+  background-color: #0095f6;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 4px;
+  display: block;
+  width: 60%; 
+}
+
+.facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fb-logo {
+  width: 15px;
+}
+
+.fb-text {
+  color: #385185;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.forgot {
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+
+.link-blue {
+  color: #0095f6;
+}
+
+.separador {
+  width: 60%; 
+  text-align: center; 
+  color: #ccc;
+  text-transform: uppercase;
+  border-bottom: 1px solid #ccc; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+} 
+
+.separador span { 
+   background:#fff; 
+   padding:0 10px; 
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.3rem 0;
+}
+
+.download {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+.app-download {
+  height: 3rem;
+  width: 10rem;
+  background-size: cover;
+}
+
+/* media queries */
+
+
+@media (max-width: 1024px) {
+  main {
+      width: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+      background-color: #ffffff;
+  }
+
+  main {
+      width: 90%;
+  }
+
+  .instagram-phone {
+      display: none;
+  }
+
+  .login-options {
+      width: 100%;
+  }
+  
+  .card {
+      border: 1px solid transparent;
+  }
+}

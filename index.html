@@ -7,6 +7,7 @@
   <title>Instagram</title>
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <main>
@@ -15,31 +16,27 @@
     </div>
     <div class="login-options">
       <div class="card">
-        <img src="./images/instagram.png" alt="Logo do Instagram na versão de texto">
-        <form>
-          <input type="text" placeholder="Telefone, nome de usuário ou email">
-          <input type="password" placeholder="Senha">
-          <input type="button" value="Entrar">
+        <img class="instagram-logo" src="./images/instagram.png" alt="Logo do Instagram na versão de texto">
+        <form class="login-form">
+          <input class="input-field" type="text" placeholder="Telefone, nome de usuário ou email">
+          <input class="input-field" type="password" placeholder="Senha">
+          <input class="instagram-login" type="button" value="Entrar">
         </form>
-        <div class="separator">
-          <hr>
-          <p>ou</p>
-          <hr>
-        </div>
-        <a href="#">
-          <img src="./images/facebook-logo.png" alt="Logo do Facebook">
+        <p class="separador"><span>ou</span></p>
+        <a href="#" class="facebook">
+          <img class="fb-logo" src="./images/facebook-logo.png" alt="Logo do Facebook">
           <p class="fb-text">Entrar com o Facebook</p>
         </a>
-        <a href="#">Esqueceu a senha?</a>
+        <a class="forgot" href="#">Esqueceu a senha?</a>
       </div>
       <div class="card">
-        <p>Não tem uma conta? <span><a href="#">Cadastre-se</a></span></p>
+        <p>Não tem uma conta? <span><a class="link-blue" href="#">Cadastre-se</a></span></p>
       </div>
       <div class="app">
         <p class="app-text">Obtenha o aplicativo.</p>
-        <div class="botoes">
-          <img src="./images/botao-apple.png" alt="Botão para obter o aplicativo do Instagram na Apple Store">
-          <img src="./images/botao-playstore.png" alt="Botão para obter o aplicativo do Instagram na Google Play Store">
+        <div class="download">
+          <img class="app-download" src="./images/botao-apple.png" alt="Botão para obter o aplicativo do Instagram na Apple Store">
+          <img class="app-download" src="./images/botao-playstore.png" alt="Botão para obter o aplicativo do Instagram na Google Play Store">
         </div>
       </div>
     </div>
